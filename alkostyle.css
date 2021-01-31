@@ -1,0 +1,51 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+.wrapper {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    height: 350px;
+    width: 300px;
+    background-color: rgb(201, 201, 201);
+    margin: 20px;
+}
+.radios input {
+    margin-right: 8px;
+}
+button {
+    padding: 5px 10px;
+    border-radius: 3px;
+}
+.textarea {
+    width: 90%;
+    height: 100px;
+    background-color: rgb(163, 163, 163);
+    border-radius: 3px;
+}
+input {
+    background-color: rgb(163, 163, 163);
+    border: 1px solid gray;
+    border-radius: 3px;
+}
+.textarea ul li {
+    display: none;
+    list-style-type: none;
+}
+
+.result {
+    display: none;
+    list-style-type: none;
+}
+.result li {
+    padding-right: 50px;
+}
